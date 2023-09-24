@@ -2,7 +2,7 @@
 
 Short project description or tagline.
 
-![Project Screenshot or Logo](fotor-ai-2023092410749.jpg)
+![](dronesFightingFire.jpg)
 
 ## Table of Contents
 
