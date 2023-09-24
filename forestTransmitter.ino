@@ -30,6 +30,7 @@ void setup()
     Serial.begin(9600);
     // pinMode(button, INPUT); //set button as an INPUT device
     pinMode(buzzer, OUTPUT);   //set LED as an OUTPUT device
+    pinMode(transmittor, OUTPUT);
 
     lcd.begin(16, 2);
 
@@ -55,7 +56,7 @@ void loop()
 
     if (temperature >= 25.0) {
     //     // Activate the buzzer when the temperature exceeds 30 degrees Celsius
-        pinMode(transmittor, OUTPUT);
+        digitalWrite(transmittor, LOW);
         digitalWrite(buzzer, HIGH);
         colorR = 100;
         colorG = 0;
@@ -64,7 +65,7 @@ void loop()
         lcd.print("   FIRE ALERT    ");
     } else {
         // Turn off the buzzer if the temperature is below 30 degrees Celsius
-        digitalWrite(transmittor, LOW);
+        digitalWrite(transmittor, HIGH);
         digitalWrite(buzzer, LOW);
         // print the number of seconds since reset:
         lcd.print("Safe Environment");
@@ -79,4 +80,3 @@ void loop()
 
     delay(100);
 }
-
