@@ -2,17 +2,12 @@
 
 Short project description or tagline.
 
-![Project Screenshot or Logo](screenshot.png)
+![Project Screenshot or Logo](fotor-ai-2023092410749.jpg)
 
 ## Table of Contents
 
 - [About](#about)
 - [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Contributing](#contributing)
 
 ## About
 
